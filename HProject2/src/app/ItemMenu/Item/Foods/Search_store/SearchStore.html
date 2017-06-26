@@ -1,0 +1,20 @@
+<div class="content">
+  <a class="icon"></a>
+  <input type="text" placeholder="例如:荷塘鱼坊烤鱼 或 樱花日本料理">
+  <a class="button"></a>
+  <ul class="hots">
+
+    <li *ngFor="let item of hots;last as _last" [ngSwitch]="_last">
+      <a *ngSwitchDefault>{{item}}<span>、</span></a>
+      <a *ngSwitchCase="true">{{item}}</a>
+    </li>
+  </ul>
+</div>
+<div class="message">
+  <div class="fl">UPDATE</div>
+  <div class="fl">朱子豪</div>
+  <div class="fl">五分钟前</div>
+  <div class="fl">发表了一篇文章 关于你这个SBde 关于你这个SBde关于你这个SBde</div>
+  <div class="arrorw_red_down"></div>
+  <div class="arrorw_red_up"></div>
+</div>

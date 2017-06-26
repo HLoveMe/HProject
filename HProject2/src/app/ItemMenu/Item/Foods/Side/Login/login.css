@@ -1,0 +1,48 @@
+.login{
+  height: 140px;
+  border-radius: 6px;
+  border: 1px solid #e5e5e5;
+  overflow: hidden;
+}
+.form{
+  height: 70px;
+  border-top: 1px solid #e5e5e5;
+  padding-top: 15px;
+}
+
+form>div{
+  padding-left: 20px;
+}
+form div>input{
+  width: 89px;
+}
+
+form .pwd .button{
+  margin: 6px;
+  height: 22px;
+  width: 54px;
+  line-height: 22px;
+  border-radius: 11px;
+  background: red;
+}
+
+.tool{
+  height: 34px;
+  margin: 0px 12px;
+  border-top: 1px solid #e5e5e5;
+}
+
+.tool ul{
+
+}
+.tool li{
+  float: left;
+  width: 107px;
+}
+.tool li a{
+  display: block;
+  height: 34px;
+  line-height: 34px;
+  text-indent: 25px;
+  background: url("/assets/img/dot.gif") no-repeat 20px 16px;
+}

@@ -1,0 +1,16 @@
+/*!**public*!*/
+
+/*.clearfix{zoom:1}*/
+
+/*.clearfix:after{*/
+    /*content: "";*/
+    /*display: block;*/
+    /*height: 0px;*/
+    /*overflow: hidden;*/
+    /*clear: both;*/
+    /*zoom: 1;*/
+/*}*/
+
+/*.fLeft{ float: left;}*/
+
+/*.fRight{float: right;}*/

@@ -1,0 +1,69 @@
+.header{
+  height: 71px;
+  padding: 22px  0 0  24px;
+  background: url("/assets/img/new_title_bg.gif") no-repeat 115px 0px;
+}
+.header>div>div:nth-of-type(1){
+  color: red;
+}
+.header>div>div:nth-of-type(2){
+  font-size: 20px;
+}
+.header .today{
+  height: 48px;
+  line-height: 48px;
+  font-size: 30px;
+  text-indent: 10px;
+  color: red;
+}
+
+.action{
+  height:119px ;
+  padding: 16px 28px 19px 23px;
+  background: url("/assets/img/activity_bg.gif") no-repeat ;
+}
+.action .icon{
+  width: 84px;
+  height: 84px;
+  background: url("/assets/img/activity_bg.gif") no-repeat -373px  0px;
+  background-size:cover;
+  margin-right: 12px;
+}
+.action>div:nth-of-type(2){
+  width: 200px;;
+}
+.action .title{
+  height:29px;
+  line-height: 29px;
+  color: #333333;
+  font-weight: 400;
+}
+
+.action .title div{
+  text-align: center;
+  display: inline-block;
+  width: 25px ;
+  height: 25px;
+  line-height: 25px;
+  color: red;
+  margin-right: 3px;
+  border: 1px solid #e5e5e5;
+}
+
+.action .content{
+  height: 54px;
+  line-height: 18px;
+  color: #999999;
+
+  overflow : hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+/*   ----  */
+.contaion{
+  height: 284px;
+  padding: 0px 25px;
+}
+

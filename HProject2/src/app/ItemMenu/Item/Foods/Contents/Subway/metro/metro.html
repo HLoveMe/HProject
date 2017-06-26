@@ -1,0 +1,10 @@
+<div class="image bg" #conent>
+  <div *ngIf="select!=subs[0]">{{select.name}}号线的地图</div>
+</div>
+<div class="subs">
+  <ul>
+    <li *ngFor="let item of subs;index as i" (click)="selectItem(i,item)">
+      <a [style.border]="borderColor(item)" [class.active]="item==select">{{item.name}}<span>号线</span></a>
+    </li>
+  </ul>
+</div>

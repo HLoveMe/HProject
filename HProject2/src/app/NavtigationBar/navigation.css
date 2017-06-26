@@ -1,0 +1,45 @@
+.navigation{
+  height: 30px;
+  background-color: #1c94c4;
+}
+
+.navigation>div:nth-of-type(1){
+  margin-top: 4px;
+}
+.navigation .title{
+  width: 54px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 12px;
+  margin-left: 20px;
+}
+.navigation .addresss{
+  margin-left:16px;
+}
+.navigation .address{
+  margin-right: 5px;
+}
+.navigation .address a{
+  display: block;
+  border: 1px solid #e5e5e5;
+  padding: 2px 8px;
+  font-size: 12px;
+  border-radius: 4px;
+}
+.active{
+  color: red;
+}
+
+/*右侧*/
+
+.navigation .tools{
+  height: 30px;
+}
+.navigation .tools a{
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  text-indent: 20px;
+
+}
+

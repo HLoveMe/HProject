@@ -1,0 +1,82 @@
+.content{
+  padding: 0px 15px;
+  height: 100%;
+  width: 100%;
+}
+
+.content ul li{
+  border-bottom: 1px dotted #cbcbca;
+}
+.content .title{
+  height: 31px;
+  line-height: 31px;
+  background: none !important;
+}
+.content .title div{
+  height: 31px;
+  line-height: 31px;
+  text-align: center;
+}
+.content .title div:nth-of-type(1){
+  width:260px;
+}
+.content .title div:nth-of-type(2){
+  width: 56px;
+}
+.content li{
+  position: relative;
+  background: url("/assets/img/dot.gif") no-repeat 6px 13px;
+}
+.content li a{
+  display: block;
+  height: 27px;
+  line-height: 27px;
+  text-indent: 16px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width:227px;
+}
+
+.content li .status{
+  position: absolute;
+  top:0px;
+  right: 0px;
+  width: 14px;
+  height: 14px;
+  margin: 7px 22px;
+  background: url("/assets/images/know_icons.png") no-repeat;
+}
+
+
+.search{
+  height:56px;
+}
+.search>div{
+  height: 56px;
+}
+.search div:nth-of-type(1){
+  width: 84px;
+  text-align: center;
+  line-height: 56px;
+  height: 56px;
+  text-indent: 12px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.search div:nth-of-type(2){
+  width: 200px;
+  line-height: 56px;
+  padding-left: 9px;
+}
+.search div input{
+  width: 182px;
+  border: 1px solid #9c9c9c;
+}
+.search div:nth-of-type(3){
+  width: 22px;
+  height: 22px;
+  /*56-22 34*/
+  margin: 17px 0px;
+  background: url("/assets/images/message_go.png");
+}

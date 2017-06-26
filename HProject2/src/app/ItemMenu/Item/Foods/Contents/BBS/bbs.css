@@ -1,0 +1,38 @@
+.content{
+  height: 294px;
+  padding: 6px 15px 0;
+}
+
+.content .image{
+  height: 70px;
+  border-radius: 6px;
+  background: url("/assets/images/bbs_news.png");
+}
+
+.content li{
+  margin-top: 3px;
+  height: 30px;
+  border-radius: 6px;
+  background: #f1f1f1;
+  position: relative;
+}
+.content li a{
+  height: 30px;
+  line-height: 30px;
+  display: block;
+  text-indent: 9px;
+  text-decoration: none;
+  max-width: 239px;
+}
+.content li a span{
+  color: red;
+  font-size: 16px;
+}
+
+.content ul li div{
+  position: absolute;
+  height: 30px;
+  line-height: 30px;
+  right:22px;
+  top:0px;
+}

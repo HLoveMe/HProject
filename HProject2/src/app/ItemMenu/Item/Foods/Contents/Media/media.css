@@ -1,0 +1,17 @@
+.content{
+
+}
+.content ul{
+margin-top: 12px;
+}
+.content ul li a{
+  display: inline-flex;
+  display: flex;
+  height: 43px;
+  padding-left: 112px;
+  padding-right: 25px;
+  background: url("/assets/images/media_news.png") no-repeat;
+}
+.content ul li a div{
+  margin: auto 0;
+}

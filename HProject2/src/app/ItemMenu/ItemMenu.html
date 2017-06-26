@@ -1,0 +1,13 @@
+<div class="clearfix box">
+  <ul class="clearfix">
+    <ng-container *ngFor="let item of items;let i = index" [ngSwitch]="item=='AA'">
+      <li (click)="goItem(item)" *ngSwitchDefault>
+        <item [model]="item" [select]="item==current" [index]="i"></item>
+      </li>
+      <li class="logo" style="background-image: url('assets/img/logo.png')" *ngSwitchCase="true">
+
+      </li>
+    </ng-container>
+  </ul>
+</div>
+<router-outlet></router-outlet>

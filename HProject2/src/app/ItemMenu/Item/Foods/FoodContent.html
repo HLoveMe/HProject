@@ -1,0 +1,72 @@
+
+<div class="search gradient">
+  <ul class="clearfix">
+    <li class="fl clearfix"   *ngFor="let item of items"  (click)="selectItem(item)" [class.active]="item==select">
+      <a >{{item?.name}}</a>
+    </li>
+  </ul>
+  <router-outlet></router-outlet>
+</div>
+<div class="content clearfix">
+    <div class="main fl">
+        <div class="box clearfix">
+            <div class="what part fl">
+              <what>A</what>
+            </div>
+            <div class="hot_shop part_no_border part fr" data-name="ZZZH">
+              <shop></shop>
+            </div>
+        </div>
+
+        <div class="ad part"></div>
+
+        <div class="box clearfix">
+          <div class="luck_today part fl">
+            <luck-day></luck-day>
+          </div>
+          <div class="recommend part fr">
+            <recommend></recommend>
+          </div>
+        </div>
+
+        <div class="box clearfix">
+          <div class="subway part fl">
+            <subway></subway>
+          </div>
+          <div class="bbs part fr">
+            <bbs></bbs>
+          </div>
+        </div>
+
+      <div class="ad part"></div>
+
+      <div class="box clearfix">
+        <div class="know part fl">
+          <know></know>
+        </div>
+        <div class="people part fr">
+          <people></people>
+        </div>
+      </div>
+
+      <div class="box clearfix">
+        <div class="help part fl">
+          <help></help>
+        </div>
+        <div class="media part fr">
+          <media></media>
+        </div>
+      </div>
+    </div>
+    <div class="side fr">
+      <div><login></login></div>
+      <div><turntable></turntable></div>
+      <div><window>  </window></div>
+      <div>
+        <ticket></ticket>
+      </div>
+    </div>
+</div>
+<div id="footer">
+
+</div>

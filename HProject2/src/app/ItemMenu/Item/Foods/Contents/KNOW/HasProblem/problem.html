@@ -1,0 +1,22 @@
+<div class="content" *ngIf="data">
+  <ul>
+    <li class="title">
+      <div class="fl">标题</div>
+      <div class="fr">状态</div>
+    </li>
+    <li *ngFor="let item of data">
+      <a>
+        [<span>{{item?.type}}</span>]  {{item?.content}}
+      </a>
+      <div class="status" [style.backgroundPositionY]="item?.status ==1 ? '0px' : '-14px'"></div>
+    </li>
+  </ul>
+  <div class="search">
+    <div class="fl">搜搜谁知道:</div>
+    <div class="fl">
+      <input type="text" value="111" #search>
+    </div>
+    <div class="fl" (click)="goSearch(search.value)"></div>
+  </div>
+</div>
+

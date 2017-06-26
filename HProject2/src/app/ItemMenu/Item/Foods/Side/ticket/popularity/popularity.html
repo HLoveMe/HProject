@@ -1,0 +1,14 @@
+<div class="content">
+  <ul>
+    <li class="header clearfix">
+      <div class="fl">商店买</div>
+      <div class="fl">省</div>
+      <div class="fl">打印</div>
+    </li>
+    <li class="ticket clearfix" *ngFor="let item of data">
+      <div class="fl">{{item?.desc}}</div>
+      <div class="fl">{{item?.discount}}</div>
+      <div class="fl">{{item?.mimeograph}}</div>
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,18 @@
+<div class="navigation gradient">
+  <span class="fl title">切换城市:</span>
+  <div class="fl clearfix">
+    <ul class="clearfix addresss">
+      <li class="address fl" *ngFor="let item of left_list" [class.active]="current==item" (click)="selectAddress(item)">
+        <a href="#">{{item}}</a>
+      </li>
+    </ul>
+  </div>
+  <div class="fr tools">
+    <a href="#" style="background: url('assets/img/header_link_bg.gif') no-repeat 0px 9px">
+        加盟100度
+    </a>
+    <a href="#" style="background: url('assets/img/header_link_bg.gif') no-repeat 0px -21px">
+        店铺管理
+    </a>
+  </div>
+</div>

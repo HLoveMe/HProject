@@ -1,0 +1,36 @@
+.image{
+  margin-top: 30px;
+  height: 196px;
+  text-align: center;
+}
+.bg{
+  background:url("/assets/images/jiaotong_img.png") no-repeat;
+}
+.subs{
+  padding: 21px 24px;
+  height: 68px;
+}
+.subs ul{
+  display: inline-flex;
+  display: flex;
+  justify-content:space-between
+}
+.subs li{
+  float: left;
+  margin-right: 4px;
+  flex: 1;
+}
+.subs li a{
+  display: block;
+  height: 26px;
+  line-height: 26px;
+  text-align: center;
+  text-decoration:none;
+  border-radius: 6px;
+}
+.active{
+  background-color: orange;
+  color: white;
+  font-weight: 400;
+  border: none !important;
+}

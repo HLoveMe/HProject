@@ -1,0 +1,23 @@
+.box{
+
+}
+.box ul{
+  display: block;
+  padding: 0px 13px;
+  height: 100px;
+}
+
+.box ul li{
+  float:  left;
+  width: 66px;
+  height: 100px;
+}
+
+.box ul .logo{
+  height: 62px;
+  width: 223px;
+  margin: 10px 20px 0px;
+  /*223px*/
+}
+
+

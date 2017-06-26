@@ -1,0 +1,45 @@
+.title{
+  height: 40px;
+  line-height: 40px;
+  text-indent: 15px;
+}
+.desc{
+  line-height: 18px;
+  padding: 11px 20px;
+  text-indent: 24px;
+}
+.call{
+  height: 33px;
+  padding: 0 20px;
+}
+.call li{
+  float: left;
+  width: 50%;
+  text-indent: 22px;
+  background: url("/assets/images/help_icons.png") no-repeat;
+}
+.call li:nth-of-type(2){
+  background-position-y: -17px;
+}
+.help_content{
+  height: 117px;
+  background: url('/assets/img/activity_bg.gif') no-repeat;
+  padding-top: 21px;
+}
+.help_content div{
+  width: 174px;
+  height: 100%;
+  display: inline-block;
+  padding-left: 24px;
+}
+.help_content ul li a{
+  display: block;
+  text-indent: 12px;
+  height: 18px;
+  line-height: 18px;
+  background: url("/assets/img/dot.gif") no-repeat 4px 8px;
+}
+
+.help_content ul li a:hover{
+  text-decoration: dashed;
+}

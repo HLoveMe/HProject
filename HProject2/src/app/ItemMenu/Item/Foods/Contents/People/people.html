@@ -1,0 +1,11 @@
+<nav-top [width]="350" [item]="item" (gomore)="goMore()"></nav-top>
+<div class="content">
+  <ul>
+    <li *ngFor="let index of [0,1,2,3,4,5,6,7,8,9,10]" [style.width]="index==2 ? '158px':'78px'" [style.background]="setBGImage(index)">
+      <a>
+        <div></div>
+        <div></div>
+      </a>
+    </li>
+  </ul>
+</div>

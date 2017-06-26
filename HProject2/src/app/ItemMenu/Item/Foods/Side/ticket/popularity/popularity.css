@@ -1,0 +1,38 @@
+
+ .content{
+  height: 174px;
+}
+ .content li{
+  margin: 0px 10px;
+}
+
+ .content li div{
+  text-align: center;
+}
+ .content .header div {
+  height: 30px;
+  line-height: 30px;
+}
+ .content .header div:nth-of-type(1){
+  text-align: center;
+}
+ .content li div:nth-of-type(1){
+  width: 140px;
+  text-align: left;
+}
+ .content li div:nth-of-type(2){
+  width: 26px;
+}
+ .content li div:nth-of-type(3){
+  width: 49px;
+}
+
+ .content .ticket{
+  height: 28px;
+  line-height: 28px;
+  border-top: 1px dotted #e5e5e5;
+}
+ .content .ticket div:nth-of-type(1){
+  text-indent: 13px;
+  background: url("/assets/img/dot.gif") no-repeat 6px 12px;
+}

@@ -1,0 +1,71 @@
+.header{
+  height: 70px;
+  background: url("/assets/img/new_title_bg.gif") no-repeat 114px -70px;
+}
+.header .title{
+  width:114px;
+  height: 70px;
+  padding: 19px 0 0 26px;
+}
+.header .title div:nth-of-type(1){
+  color: red;
+}
+.header .title div:nth-of-type(2){
+  font-size: 22px;
+}
+
+.icons{
+  height: 180px;
+  width: 320px;
+  margin: 0px 15px;
+  border-radius: 6px;
+  padding: 12px 0 0 12px ;
+  background-color: #f8f8f8;
+}
+.icons .image{
+  height: 135px;
+  width: 225px;
+
+}
+.icons .imgs{
+  width: 81px;
+  height: 135px;
+  padding: 0px 12px 0 14px;
+}
+
+.icons .imgs li{
+  height:36px;
+  margin-bottom: 13px;
+  border: 3px solid #e5e5e5;
+}
+.active{
+  border: 3px solid red !important;
+}
+
+.news{
+  height: 208px;
+  margin-top: 18px;
+  padding-left: 10px;
+}
+.news ul{
+
+}
+.news li{
+
+}
+.news li div{
+  height: 26px;
+  line-height: 26px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.news li div:nth-of-type(1){
+  text-indent: 40px;
+  max-width: 238px;
+  background: url("/assets/images/Marvellous_icons.png") no-repeat 15px 0px;
+}
+.news li div:nth-of-type(2){
+  padding-right: 26px;
+}
+

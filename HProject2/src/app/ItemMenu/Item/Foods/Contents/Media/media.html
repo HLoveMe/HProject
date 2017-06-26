@@ -1,0 +1,10 @@
+<nav-top [width]="350" [item]="item"></nav-top>
+<div class="content">
+  <ul>
+    <li *ngFor="let item of medias;index as i" (click)="selectItem(item)">
+      <a [style.backgroundPositionY]="-37 * i +'px'">
+        <div>{{item}}</div>
+      </a>
+    </li>
+  </ul>
+</div>

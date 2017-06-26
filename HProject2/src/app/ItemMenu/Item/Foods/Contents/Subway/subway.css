@@ -1,0 +1,15 @@
+.nav{
+  height: 34px;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+}
+.content{
+  position: absolute;
+  top:33px;
+  z-index: 1;
+  height: 297px;
+  width: 100%;
+  border: 1px solid #e5e5e5;
+  border-radius: 0 0 6px 6px;
+}

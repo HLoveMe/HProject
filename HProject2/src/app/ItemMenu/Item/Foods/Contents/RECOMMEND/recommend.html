@@ -1,0 +1,23 @@
+<div class="header">
+    <div class="fl title">
+      <div>RECOMMEND</div>
+      <div>精彩推荐</div>
+    </div>
+</div>
+<div class="icons">
+  <div class="fl image" #Image></div>
+  <div class="fr imgs">
+    <ul>
+      <li *ngFor="let item of list;index as i" [class.active]="item==select" tappable (click)="selectItem(i,item)" ></li>
+    </ul>
+  </div>
+  <div>爸爸在哪le?</div>
+</div>
+<div class="news">
+  <ul>
+    <li *ngFor="let item of news" (click)="selectMsg(item)" >
+      <div class="fl" [style.backgroundPositionY]="item?.type == 2 ? '0px':'-27px'">{{item.name}}</div>
+      <div class="fr">{{item.data}}</div>
+    </li>
+  </ul>
+</div>

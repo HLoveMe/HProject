@@ -1,0 +1,15 @@
+
+<div class="title">
+  WHAT’ HOT
+</div>
+<a class="video"></a>
+<div class="news">
+  <div class="icon fl"></div>
+  <div class="msg fl">
+    <ul>
+      <li *ngFor="let item of news" (click)="contentClick(item)">
+        {{item}}
+      </li>
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,13 @@
+<nav-top [width]="350" [item]="item" (gomore)="goMore()"></nav-top>
+<div class="content">
+  <div class="image"></div>
+  <ul>
+    <li *ngFor="let item of news;index as i" (click)="selectItem(item)">
+      <a >
+        <span>0{{i+2}}</span>
+        {{item?.name}}
+      </a>
+      <div>{{item?.desc}}</div>
+    </li>
+  </ul>
+</div>

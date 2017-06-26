@@ -1,0 +1,134 @@
+.search{
+  height: 116px;
+  border: 1px solid #dbdbdb;
+  border-radius: 6px;
+  position: relative;
+}
+.search  ul{
+  width: 405px;
+  position: absolute;
+  left: 0px;
+  right:0px;
+  top: -11px;
+  margin: auto;
+  z-index: 2;
+}
+.search li{
+  width: 80px;
+  position: relative;
+  background-color: white;
+  border:1px solid #f8d0bf;
+  margin-right: 1px;
+  border-radius: 6px 6px 0 0;
+  height: 28px;
+  border-bottom: none;
+}
+.search li a{
+  position: relative;
+  display: block;
+  text-align: center;
+  line-height: 28px;
+  height: 26px;
+  text-decoration: none;
+}
+.search .active{
+  top:-1px;
+  height: 30px;
+  background-color:#e21c01;
+  border: 1px solid #c40d0e;
+  border-bottom: none;
+  color: white;
+}
+
+.search .search_content{
+  height: 116px;
+  background-color: orange;
+}
+
+.content{
+  position: relative;
+  margin-top: 10px;
+}
+.part{
+  border-radius: 6px;
+  border: 1px solid #e5e5e5;
+}
+.part_no_border{
+  border: none !important;
+}
+
+.content .main,.content .side{
+
+}
+
+.content .main{
+  width: 710px;
+}
+.content .main>div{
+  margin-bottom: 10px;
+}
+.content .main>div>div{
+  width: 350px;
+}
+/*第一行*/
+.content .main .box .what{
+  height: 420px;
+}
+.content .main .box .hot_shop{
+  height: 420px;
+}
+/*ad*/
+.content .main .ad{
+  height:90px;
+  background: url("/assets/img/ad/ad1.jpg");
+}
+/*第三行*/
+.content .main .box .luck_today{
+  height: 500px;
+}
+.content .main .box .recommend{
+  height: 500px;
+}
+/*第四行*/
+.content .main .box .subway{
+  height: 330px;
+  position: relative;
+  border: none;
+}
+.content .main .box .bbs{
+  height: 330px;
+}
+/*ad*/
+
+/**/
+.content .main .box .know{
+  height: 300px;
+}
+.content .main .box .people{
+  height: 300px;
+}
+
+.content .main .box .help{
+  height: 250px;
+}
+.content .main .box .media{
+  height: 250px;
+}
+
+
+/**/
+
+
+.content .side{
+  width: 240px;
+}
+.content .side div{
+  margin-bottom:10px;
+  overflow: hidden;
+}
+
+#footer{
+  height: 100px;
+  width: 960px;
+  background-color: #1c94c4;
+}

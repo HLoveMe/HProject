@@ -1,0 +1,42 @@
+
+.title{
+  height: 42px;
+  text-indent: 10px;
+  line-height: 42px;
+  color: red;
+  font-weight: bold;
+  font-size: 18px;
+  background: url("/assets/img/video_bg.gif") no-repeat 120px 10px;
+}
+.video{
+  display: block;
+  height: 285px;
+  padding: 0px 15px;
+  background: url("/assets/img/play_bg.gif") no-repeat 15px 0px;
+}
+
+.news{
+
+}
+.news .icon{
+  height: 90px;
+  width: 99px;
+  background: url("/assets/img/video_bg.gif") no-repeat 18px -32px;
+}
+.news .msg{
+  height: 90px;
+  width: 234px;
+}
+.news .msg ul{
+  padding: 12px;
+}
+.news .msg li{
+  font-size: 12px;
+  height: 21px;
+  line-height: 21px;
+  text-indent: 6px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background: url("/assets/img/dot.gif") no-repeat 0px 8px;
+}

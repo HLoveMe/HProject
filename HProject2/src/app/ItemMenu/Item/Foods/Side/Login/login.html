@@ -1,0 +1,29 @@
+<div class="login ">
+  <nav-top [width]="240" [item]="item" [gradient]="true" [hidden]="true"></nav-top>
+  <div class="form">
+    <form #thisForm ='ngForm' (ngSubmit)="OnSubmit()">
+      <div class="name">
+        <label for="name">用户名:&nbsp;</label>
+        <input type="text" name="name" id="name" required placeholder="AAA" [(ngModel)]="user.name">
+        <label >
+          <input #remember [checked]="user.remember" type="checkbox" name="_" value="_" style="display: inline-block"> <span>记住我</span>
+        </label>
+      </div>
+      <div class="pwd">
+        <label for="pwd">密<span style="visibility: hidden">密</span>码:&nbsp;</label>
+        <input type="password" name="pwd" id="pwd" required [(ngModel)]="user.psw">
+        <button type="submit" class="button" [disabled]="!thisForm.form.valid">登入</button>
+      </div>
+    </form>
+  </div>
+  <div class="tool">
+      <ul>
+        <li (click)="register()">
+          <a >新用户注册</a>
+        </li>
+        <li (click)="noPsw()">
+          <a>忘记密码</a>
+        </li>
+      </ul>
+  </div>
+</div>

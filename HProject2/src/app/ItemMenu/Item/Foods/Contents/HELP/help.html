@@ -1,0 +1,34 @@
+<div class="title">
+  HELP <span>在线帮助</span>
+</div>
+<div class="desc">
+  您有任何疑问,可以通过现在电话,或者MSN进行联系沟通
+</div>
+<div class="call">
+  <ul>
+    <li>
+      4006-100-516
+    </li>
+    <li>
+      100du.com@live.cn
+    </li>
+  </ul>
+</div>
+<div class="help_content">
+  <div class="fl help_user">
+    <h4>用户帮助</h4>
+    <ul>
+      <li *ngFor="let item of data?.user">
+        <a >{{item}}</a>
+      </li>
+    </ul>
+  </div>
+  <div class="fr help_store">
+    <h4>商店帮助</h4>
+    <ul>
+      <li *ngFor="let item of data?.store">
+        <a >{{item}}</a>
+      </li>
+    </ul>
+  </div>
+</div>

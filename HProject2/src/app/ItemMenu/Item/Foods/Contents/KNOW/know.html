@@ -1,0 +1,11 @@
+<nav-top [width]="350" [item]="item" (gomore)="goMore()"></nav-top>
+<segement [items]="hots" (changeItem)="selectItem($event)"></segement>
+<div class="content">
+  <ng-template #content></ng-template>
+</div>
+<style>
+  .content{
+    height: 232px;
+  }
+
+</style>
