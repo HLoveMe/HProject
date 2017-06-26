@@ -1,6 +1,6 @@
 * HProject
 	直接可以运行
-* HProject
+* HProject2
 	* src 下是AngularJs工程源码文件
 		* 安装nodejs/npm/angularjs2
 		* 目录下运行npm  install 安装依赖
